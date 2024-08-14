@@ -1,0 +1,99 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+        Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    margin: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.finalResult {
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.finalResult img {
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.shooted {
+    height: 600px;
+    width: 215px;
+    padding: 4px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.shooted::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.shooted::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.shooted::-webkit-scrollbar-thumb
+{
+	background-color: rgb(185, 185, 185);
+    border-radius: 10px;
+}
+
+
+.shooted div {
+    width: 200px;
+    position: relative;
+}
+
+.shooted img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.selected {
+    opacity: 0.7;
+    outline: 4px solid #00AC47;
+}
+
+
+.button {
+    padding: 18px 40px;
+    background-color: #8DE4B1;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+}

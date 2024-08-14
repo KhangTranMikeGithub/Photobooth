@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="./render.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="imgContainer">
+            <img id="videoStream" src="http://127.0.0.1:5000/video" />
+            <img class="overlay" src="./frame1.png" />
+        </div>
+        <!-- <div class="buttonContainer">
+            <div id="None" class="button">
+                <div id="selecting" class="selecting">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                </div>
+                None
+            </div>
+            <div class="button" id="Explode">Explode</div>
+            <div class="button" id="Butterflies">Butterflies</div>
+            <div class="button" id="Heart">Heart</div>
+        </div> -->
+        <button class="capture" onclick="capture()">Chụp</button>
+    </div>
+    <a href="choose.html" id="clickme"></a>
+</body>
+
+</html>
